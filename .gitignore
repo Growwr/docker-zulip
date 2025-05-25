@@ -11,3 +11,34 @@ docker-compose-dev.yml
 kubernetes/*-dev.yml
 kubernetes/chart/zulip/values-local.yaml
 kubernetes/chart/zulip/charts/
+
+# Environment Variables
+.env
+.env.*
+
+# Zulip Configuration
+zulip-secrets.conf
+settings.py
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.der
+
+# Local Development
+*.log
+*.sqlite3
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
